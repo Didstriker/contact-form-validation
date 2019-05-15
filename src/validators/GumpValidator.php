@@ -70,7 +70,7 @@ class GumpValidator {
             }
         } else {
             $form_input = [
-                'message' => $e->sender->message,
+                'message' => $submission->sender->message,
             ];
         }
 
